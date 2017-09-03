@@ -20,6 +20,12 @@
 #switch moery_branch
 # git checkout moery_branch
 
+#delete branch from local
+# git branch -D moery_branch
+
+#delete branch from remote
+# git push origin --delete moery_branch
+
 #add modifid-file to local
 # git add READNE.md
 
