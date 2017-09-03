@@ -2,6 +2,12 @@
 
 #my first time to modify this file.
 
+#generate ssh-key, xxxx is your mail address
+# ssh-keygen -t rsa -C "xxxx@xxxxx.com"
+
+#check your local connected to GitHub server
+# ssh -T git@github.com
+
 #new branch
 # git branch moery_branch
 
