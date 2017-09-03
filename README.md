@@ -8,6 +8,12 @@
 #check your local connected to GitHub server
 # ssh -T git@github.com
 
+#config email
+# $ git config --global user.email "mihooke@hotmail.com"
+
+#check user email
+# $ git config user.email
+
 #new branch
 # git branch moery_branch
 
