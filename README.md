@@ -34,3 +34,10 @@
 
 #merge branch code
 # git merge moery_branch
+
+#git stash, stash current modify, continue other modify, then you can continue stash modify
+# git stash
+
+#stash pop/clear
+# git stash pop
+# git stash clear
