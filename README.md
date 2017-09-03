@@ -19,3 +19,6 @@
 
 #add&commit
 # git commit -a -m "add some command with comment"
+
+#merge branch code
+# git merge moery_branch
