@@ -47,3 +47,9 @@
 #stash pop/clear
 # git stash pop
 # git stash clear
+
+#recovery history version
+#first look for the version you want to recovery
+# git reflog
+#then recovery, for example a commit-id is ba4f4e0
+# git reset --hard ba4f4e0
