@@ -51,5 +51,20 @@
 #recovery history version
 #first look for the version you want to recovery
 # git reflog
-#then recovery, for example a commit-id is ba4f4e0
+#then recovery, for example a commit-id is ba4f4e0, --hard parameter means not reserve modified context.
 # git reset --hard ba4f4e0
+
+#in two or more PC using one account, two or more branches, in one PC merge another PC's code.
+#below is set current PC-branch to origin, then execute command:
+# git pull origin master
+#finish merging
+# git branch --set-upstream-to=origin/master master
+
+#git merge command will show two or more branches process in bifurcation diagram.
+#use git rebase command will not show this.Before rebase you must assure you have pulled others' codes.
+# git pull origin master
+# git rebase origin/master moery_branch
+# git push origin moery_branch --force
+
+#modify committed comment, assure nobody rebase your branch
+# git commit --amend
