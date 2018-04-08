@@ -68,3 +68,7 @@
 
 #modify committed comment, assure nobody rebase your branch
 # git commit --amend
+
+#force push somebody's branch whose base of yours
+# git push origin moery_branch:master
+# git push origin moery_branch --force
